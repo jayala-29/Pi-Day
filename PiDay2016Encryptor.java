@@ -4,6 +4,7 @@ public class PiDay2016Encryptor {
 
   public static void main(String[] args) {
   
+    // encrypts message only containing letters and spaces
     Scanner input = new Scanner(System.in);
     
     int n = input.nextInt();
