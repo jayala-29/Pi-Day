@@ -15,8 +15,8 @@ public class PiDay2016Encryptor {
     
     char[] cMessage = new char[n];
     
-    // 4 a b ->  3.14 3.143.14
-    // 6 ab ba ->  3.14|3.143.14 3.143.14|3.14
+    // 4 a b ->  3.14| 3.143.14|
+    // 6 ab ba ->  3.14|3.143.14| 3.143.14|3.14|
     // ...
     for (int i = 0; i < n; i++) {
     
